@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <com.google.android.gms.ads.AdView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_below="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        ads:adSize="SMART_BANNER"
+
+        ads:adUnitId="@string/banner_ad_id" />
+
+
+
+    <LinearLayout
+        android:id="@+id/btn_lyt"
+        android:layout_below="@+id/adView"
+        android:layout_above="@+id/ly_keyboard"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <AutoCompleteTextView
+
+
+            android:imeOptions="actionDone"
+            android:imeActionLabel="Done"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape"
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dropDownHeight="match_parent"
+            android:singleLine="true"
+            android:completionThreshold="1"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:paddingLeft="10dp"
+
+            android:hint="Search"/>
+
+        <TextView
+            android:id="@+id/txt_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="18dp" />
+
+
+        <Button
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_clear"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@drawable/buttonshape"
+            android:text="Clear"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@android:color/white" />
+
+        />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:visibility="visible"
+        android:id="@+id/ly_keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+      android:layout_alignParentBottom="true"
+        android:background="@drawable/keyboardlayshape" >
+
+        <include
+            android:id="@+id/xKeyBoard"
+            layout="@layout/urdu_keyboard"
+            android:visibility="visible" />
+
+        <include
+            android:id="@+id/xKeyBoard2"
+            layout="@layout/urdu_keyboard2"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardSC"
+            layout="@layout/urdu_keyboardsc"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardEn"
+            layout="@layout/eng_keyborad"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardEnCAP"
+            layout="@layout/eng_keyboardc"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardEnSch"
+            layout="@layout/eng_keybordsc"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardPs"
+            layout="@layout/pashto_keyboard"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardPs2"
+            layout="@layout/pashto_keybord2"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardPsSc"
+            layout="@layout/pashto_keybordsc"
+            android:visibility="gone" />
+        <include
+            android:id="@+id/xKeyBoardSndh"
+            layout="@layout/sindhi_keyboard"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardSndh2"
+            layout="@layout/sindhi_keyboard2"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardSndhSc"
+            layout="@layout/sindhi_keyboardsc"
+            android:visibility="gone" />
+        <include
+            android:id="@+id/xKeyBoardUrAlp"
+            layout="@layout/urdu_alp_keyboard"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardUrAlp2"
+            layout="@layout/urdu_alp_keybord2"
+            android:visibility="gone" />
+
+        <include
+            android:id="@+id/xKeyBoardUrAlpSc"
+            layout="@layout/urdu_alp_keyboardsc"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

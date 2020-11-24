@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hebrwKeyboardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center"
+    android:layout_marginBottom="2dip"
+    android:background="#f7deab"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <!-- android:background="#A9ABAE" -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/cATT"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ؐ"
+                android:text=" ؐ " />
+
+            <Button
+                android:id="@+id/cDD"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ؤ"
+                android:text="ؤ" />
+
+            <Button
+                android:id="@+id/cAS"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ؑ"
+                android:text=" ؑ " />
+
+            <Button
+                android:id="@+id/cRE"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ڑ"
+                android:text="ڑ" />
+
+            <Button
+                android:id="@+id/cTE"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ٹ"
+                android:text="ٹ" />
+
+            <Button
+                android:id="@+id/cSN"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ۓ"
+                android:text="ۓ" />
+
+            <Button
+                android:id="@+id/cUP"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ئ"
+                android:text="ئ" />
+
+            <Button
+                android:id="@+id/cP"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ٰ"
+                android:text=" ٰ" />
+
+            <Button
+                android:id="@+id/cRB"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ۃ"
+                android:text="ۃ" />
+
+            <Button
+                android:id="@+id/cLB"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ُ"
+                android:text=" ُ " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/cDDT"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:onClick="myFancyMethod" 
+                android:tag="آ"
+                android:text="آ" />
+
+            <Button
+                android:id="@+id/cSD"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:onClick="myFancyMethod" 
+                android:tag="ص"
+                android:text="ص" />
+
+            <Button
+                android:id="@+id/cDL"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:onClick="myFancyMethod" 
+                android:tag="ڈ"
+                android:text="ڈ" />
+
+            <Button
+                android:id="@+id/cCM"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ٖ"
+                android:text="  ٖ" />
+
+            <Button
+                android:id="@+id/cGH"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="غ"
+                android:text="غ" />
+
+            <Button
+                android:id="@+id/cHH"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ح"
+                android:text="ح" />
+
+            <Button
+                android:id="@+id/cZD"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ض"
+                android:text="ض" />
+
+            <Button
+                android:id="@+id/cKH"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_width="0dip"
+                android:layout_weight="1"
+                android:tag="خ"
+                android:text="خ" />
+
+            <Button
+                android:id="@+id/cRH"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ؒ"
+                android:text=" ؒ " />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight=".5"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/xChange2"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/change_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="lower" />
+
+            <Button
+                android:id="@+id/cZAH"
+                style="@style/btnStyle"
+                android:layout_weight="1"
+                android:onClick="myFancyMethod" 
+                android:tag="ذ"
+                android:text="ذ" />
+
+            <Button
+                android:id="@+id/cXAH"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ژ"
+                android:text="ژ" />
+
+            <Button
+                android:id="@+id/cSA"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ث"
+                android:text="ث" />
+
+            <Button
+                android:id="@+id/cZZ"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ظ"
+                android:text="ظ" />
+
+            <Button
+                android:id="@+id/cRZ"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag=" ؓ"
+                android:text="  ؓ " />
+
+            <Button
+                android:id="@+id/cNGN"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="ں"
+                android:text="ں" />
+
+            <Button
+                android:id="@+id/cSNS"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="؟"
+                android:text="؟" />
+
+            <Button
+                android:id="@+id/xBack2"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/back_clear"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.6"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/alpSp2"
+                style="@style/btnStyle"
+                android:layout_weight="1.5"
+                android:text="۱۲۳" />
+
+            <Button
+                android:id="@+id/uToeng2"
+                style="@style/kbButtonStyle"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"/>
+
+            <Button
+                android:id="@+id/xSpace2"
+                style="@style/spaceStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="4.5"
+                android:tag=" "
+                android:text=" " />
+
+            <Button
+                android:id="@+id/cST2"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="۔"
+                android:text="۔" />
+
+            <Button
+                android:id="@+id/xDone2"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_margin="3dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/hide_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="\n" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

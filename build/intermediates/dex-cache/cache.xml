@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\9a06afdf8597de2de05b697e569189f42268eb34\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_c9ac443c21efef56d8526fd0bbec59d9be59b809.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\78fd214a908d14dae63509c609c18ca3f3504da1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_fb8db96db8b16ba5da3db5bb459905b178a14ffa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\c4e86dcac77174f0b0d2c482ac98efd6e5f0edb7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_72faa144ef5b0e4ab2dc5562dc88ce4ec5ed4676.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\868b97e6b2d32310590c060c1f95b17b85da29d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_895ce65fa8cc893bf5fb7227a715d791069c74c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\9075b9f1d3d01563bef9a7ba9924a2ffd3f630d2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_d9947baf4303a73e1c22a4bb71a9a57bfbf9f1da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\support-annotations-25.3.1_ccce39bcab607fc8db257874956df802c8b5c931.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\0cc2bbdd2667cfef8fe8127baa31aa504077ffb1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ab8343c3aadefce37313ceadd8bc4db1993f2ff0">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_2d3c615627bea0449e4bfc2d073d6dcc59195195.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\edfc6329f5a9217dbecfac4d53a21a46999e7fd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bfd85a88cf976eb2c54507cc914d8e8914c2f71e">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_075a5001334360481dfff546c2efb88e566d8de1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\ab2d1c0a3e99aec479569c7d5b13e879115be6ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_0c56e203905d03327c231f48e9190bda9fb6533f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\8ebb34298964ebcf21c13de5156e4a8bc98c32b3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3683531139103cc263b71d8b5ac6062832a8fd30">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_ffd550c08e1f5e0f0f00f8e3ef5c27dece3c05f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\2134d89c16697ad3dba67b0e9971614fc5ce94b5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da5c606c36276a12a356e351882044c6b4b9e8d4">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_df3d2981b3ef8c359daae2723dbbebaed1d8f9dc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Development\EnglishToUrdu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="12920f9016b8b05acbc2af7cdc13cef6946fe7d3">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_db421caac8f0f1ec633390812b0c3709644e4581\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\023a60cc033afea41ad1eaeb1e15b13697a9ee33\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_a241cbe2536538e30eadc1b74c3fea9fd6f0e070.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\37b8e69b3e790c9313022acd0eded98a04f7617d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_41ead2121cbb8ef8a67fb41b733cefcd9092963a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\1200a580829b95ae38e6fbf72d3784e19b0b66e0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_ae98159ca155f9b6c0e0a0fb52326a459ad34c32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\c4372bfc1731d5e6932b5bf4345c9e3f83957ae6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_5131dd3b2c34010744630db99a61414d6c7da7a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\ffdc11d96d345033ca4b80a183ece768f0490137\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_707ad5e94e076d0deefb1ce3972b2810e74030f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\529b15e4927bb51822126e2b1ee37ef687ccd648\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_6d673f1e82941dd08940691d03ff251ddc76083b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\constraint-layout-solver-1.0.2_efc14c933f0768bdb0029c6f57ad4a318977b348.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\aaf1f0ea422b66c52265f7a489349f1d6b9bb69c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_5f3974288b645f6606aa70a6834d0ca75efd68b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\f27edeb0c65fdbdc3aef0582a4eb2cbce49f5df6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_08b930cbfbe3e602c3ea7b944127ed31d12fe863.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\56265c57f5e1b05820b64b27e236b1d01db6e54a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_2761fc6fc059b511b96f61a880ba412f50be0d25.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Zee-PC\.android\build-cache\8fc96f4f830e5e5d0a23b2fcbdd2560a8ee4805e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\pre-dexed\release\classes_22fb54cf415062e7d2093defe62aca4346241abc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android Development\EnglishToUrdu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1f9306806081bda086b35e255f9e8fb93ad8361f">
+        <dex dex="D:\Android Development\EnglishToUrdu\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_01e1c375e2306f1407d1f2e6ba08e33edf59edc6\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_element"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#fff" >
+
+    <TextView
+        android:id="@+id/urPh_KB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Urdu Phonetic Keyboard" />
+
+    <TextView
+        android:id="@+id/ps_KB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/urPh_KB"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Pashto Keyboard" />
+
+    <TextView
+        android:id="@+id/sndh_KB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ps_KB"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Sindhi Keyboard" />
+
+    <TextView
+        android:id="@+id/urAl_KB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sndh_KB"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Urdu Alphabetic Keyboard" />
+
+    <TextView
+        android:id="@+id/eng_KB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/urAl_KB"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="English Alphabetic Keyboard" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.androidtextonimageapp.MainActivity" >
+
+    <item
+        android:id="@+id/urPhKB"
+        android:title="Urdu Keyboard"
+        android:icon="@drawable/kb_icon"/>
+
+    <item
+        android:id="@+id/engKB"
+        android:title="English Keyboard"
+        android:icon="@drawable/kb_icon"/>
+</menu>

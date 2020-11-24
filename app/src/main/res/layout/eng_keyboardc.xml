@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hebrwKeyboardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center"
+    android:layout_marginBottom="2dip"
+    android:background="#f7deab"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <!-- android:background="#A9ABAE" -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dip"
+        android:weightSum="4" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/engAC1"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="Q"
+                android:text="Q" />
+
+            <Button
+                android:id="@+id/engAC2"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="W"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/engAC3"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="E"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/engAC4"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="R"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/engAC6"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="T"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/engAC5"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="Y"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/engAC7"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="U"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/engAC8"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="I"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/engAC9"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="O"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/engAC10"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="P"
+                android:text="P" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent" />
+
+            <Button
+                android:id="@+id/engAC11"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="A"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/engAC12"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="S"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/engAC13"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="D"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/engAC14"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="F"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/engAC15"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="G"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/engAC16"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="H"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/engAC17"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="J"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/engAC18"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="K"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/engAC19"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="L"
+                android:text="L" />
+
+            <Button
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/xChangeEngtoEngl"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/change_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="lower"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/engAC20"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="Z"
+                android:text="Z" />
+
+            <Button
+                android:id="@+id/engAC21"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="X"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/engAC22"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="C"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/engAC23"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="V"
+                android:text="V" />
+
+            <Button
+                android:id="@+id/engAC24"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="B"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/engAC25"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="N"
+                android:text="N" />
+
+            <Button
+                android:id="@+id/engAC26"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="M"
+                android:text="M" />
+
+            <Button
+                android:id="@+id/xBackEngC"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/back_clear"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="0.6"
+            android:baselineAligned="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="10" >
+
+            <Button
+                android:id="@+id/EnCAPtoSP"
+                style="@style/btnStyle"
+                android:layout_weight="1.5"
+                android:text="123" />
+
+            <Button
+                android:id="@+id/engtour2"
+                style="@style/kbButtonStyle"
+                android:layout_margin="2dip"
+                android:layout_weight="1.5"
+                android:textColor="#000" />
+
+            <Button
+                android:id="@+id/xSpaceEngC"
+                style="@style/spaceStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="4.5"
+                android:tag=" "
+                android:text=" " />
+
+            <Button
+                android:id="@+id/engStopcS"
+                style="@style/btnStyle"
+                android:onClick="myFancyMethod" 
+                android:layout_weight="1"
+                android:tag="."
+                android:text="." />
+
+            <Button
+                android:id="@+id/xDoneEngC"
+                android:layout_width="0dip"
+                android:layout_height="40dip"
+                android:layout_margin="3dip"
+                android:layout_weight="1.5"
+                android:background="@drawable/hide_high"
+                android:fitsSystemWindows="true"
+                android:soundEffectsEnabled="true"
+                android:tag="\n" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Urdu English Dictionary</string>
+    <string name="banner_ad_id">ca-app-pub-5377047071783220/5338704793</string>
+    <string name="inter_ad_unit_id"> ca-app-pub-5377047071783220/6815437997</string>
+    <string name="rewarded_ad_unit_id">ca-app-pub-9462913748124041/2918289814</string>
+    <string name="app_id">ca-app-pub-9462913748124041~9890568214</string>
+
+    <string name="spinner_title">Select Sound</string>
+
+
+    <string-array name="category">
+    <item>English to Urdu</item>
+    <item>English to English</item>
+        <item>Urdu to English</item>
+
+</string-array>
+    </resources>
+

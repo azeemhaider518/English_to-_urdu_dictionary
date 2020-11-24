@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e6e6"
+    android:weightSum="10" 
+    android:minWidth="380dp" 
+    android:minHeight="600dp">
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Sound" />
+           <Spinner
+               android:id="@+id/spinner"
+               android:paddingLeft="5dp"
+               style="@style/spinner_style"
+               android:prompt="@string/spinner_title"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="5dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="Vibration" />
+
+       </LinearLayout>
+        <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="0">
+        </LinearLayout>
+        <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".5"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+            <CheckBox
+                android:id="@+id/sound_"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="center" />
+            <TextView
+                 android:id="@+id/textView5"
+                 android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+                 android:layout_weight="1"
+                 android:text="TextView" 
+                 android:visibility="invisible"/>
+
+             <CheckBox
+                android:id="@+id/vib_"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_weight="1"/>
+            
+        </LinearLayout>
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000000"
+        android:layout_weight=".1"
+        android:orientation="horizontal">
+        </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".9"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <TextView
+             android:id="@+id/textView4"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:visibility="invisible"
+             android:text="TextView" />
+
+         <Button
+             android:id="@+id/ok_btn"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:gravity="center"
+             android:layout_weight="1"
+             android:text="Ok" />
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:visibility="invisible"
+             android:text="TextView" />
+
+    </LinearLayout>
+
+</LinearLayout>
